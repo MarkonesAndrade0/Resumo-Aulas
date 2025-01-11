@@ -1,12 +1,23 @@
-[![DIO](https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png)](https://www.dio.me/)
-
-# DIO | Resumos Git e GitHub
+<h1>
+    <a href="https://www.dio.me/">
+     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
+    <span> DIO | Resumos Git e GitHub</span>
+</h1>
 
 Repositorio para armazenar resumos Git e Github do curso Versionamento de Código com Git e Github da [Inteligência Artificial Aplicada a Dados com Copilot](https://web.dio.me/track/coding-the-future-heineken-ia-para-analise-de-dados).
 
 ## 📒 Documentação
-- Documentaçao Git [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc)
-- Documentação GitHub [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=32A3DC)](https://docs.github.com/)
+<h1>
+    <a href="https://git-scm.com/doc">
+        <img align="center" width="20px" src="https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F"></a>
+    <span> Documentaçao Git</span>
+</h1>
+
+<h>
+    <a href="https://docs.github.com/">
+        <img align="center" width="20px" src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=32A3DC"></a>
+    <span> Documentação GitHub</span>
+</h1>
 
 ## 🖥️ Resumo das Aulas
 

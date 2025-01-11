@@ -40,13 +40,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 
 #### Instalando o Git no Windows
 
-<h1>
-    <span><code>1° Baixar o instalador: Acesse o site oficial do Git e baixe a versão para Windows.</code></span>
-    <a href="https://git-scm.com/downloads">
-        <img align="center" width="80px" src="https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F">
-    </a>
-</h1>
-
+**`1° Baixar o instalador: Acesse o site oficial do`** [Git](https://git-scm.com/downloads) `**e baixe a versão para Windows.`**
 
 **`2° Executar o instalador: Clique no arquivo baixado para iniciar a instalação.`**
 
@@ -71,8 +65,7 @@ git config --global init.defaultBranch main
 
 **`1°Gerar o Token de Acesso:`**
 
-- *`Acesse sua conta no GitHub e vá para Settings (Configurações).`* [![Static Badge](https://img.shields.io/badge/GIThub-000?style=for-the-badge&logo=github&logoColor=32A3DC&logoSize=100)](https://github.com/settings/profile)
-
+- *`Acesse sua conta no GitHub e vá para Settings (Configurações).`* 
 
 - *`Navegue até Developer Settings > Personal Access Tokens > Tokens (classic) > Generate new token.`*
 
@@ -129,7 +122,7 @@ ssh-add ~/.ssh/id_ed25519
 ```
 cat ~/.ssh/id_ed25519.pub
 ```
-- *`Acesse o GitHub e vá para Settings (Configurações).`*[![Static Badge](https://img.shields.io/badge/GIThub-000?style=for-the-badge&logo=github&logoColor=32A3DC&logoSize=100)](https://github.com/settings/profile)
+- *`Acesse o GitHub e vá para Settings (Configurações).`*
 
 - *`Clique em SSH and GPG keys > New SSH key.`*
 

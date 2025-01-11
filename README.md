@@ -39,7 +39,11 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 ## ⚙️ Instalação, Configuração e Autenticação
 
 #### Instalando o Git no Windows
-**`1° Baixar o instalador: Acesse o site oficial do`** [Git](git-scm.com) **`e baixe a versão para Windows.`**
+**`1° Baixar o instalador: Acesse o site oficial do`** <h1>
+        <img align="center" width="80px" src="https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F"></a>
+    <span><em>e baixe a versão para Windows.</em></span>
+    <a href="https://git-scm.com/doc">
+</h1>
  
 **`2° Executar o instalador: Clique no arquivo baixado para iniciar a instalação.`**
 

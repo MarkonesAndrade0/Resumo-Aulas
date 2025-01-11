@@ -40,12 +40,13 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 
 #### Instalando o Git no Windows
 <h1>
-    <span style="font-weight: bold;">1° Baixar o instalador: Acesse o site oficial do</span>
+    <code style="font-weight: bold; font-size: smaller;">1° Baixar o instalador: Acesse o site oficial do</code>
     <a href="https://git-scm.com/doc">
         <img align="center" width="80px" src="https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F">
     </a>
-    <span style="font-weight: bold;">e baixe a versão para Windows.</span>
+    <code style="font-weight: bold; font-size: smaller;">e baixe a versão para Windows.</code>
 </h1>
+
 
 **`2° Executar o instalador: Clique no arquivo baixado para iniciar a instalação.`**
 

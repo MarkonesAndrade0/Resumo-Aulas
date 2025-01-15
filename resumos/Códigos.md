@@ -1,16 +1,24 @@
-| *CÛdigo* | *ExplicaÁ„o* | *Exemplos*  | Links |
-|--------|------------|-----------------|-------|
-|`Git Config` | Sistema de configuraÁ„o usado para gerenciar as opÁıes e preferÍncias do Git| `git config --global user.name <Seu Nome>` */* `git config --global user.email <Seu Email>` */* `git help` |[Config](https://git-scm.com/docs/git-config)|
-|`Mkdir`|Usado para criar uma nova pasta no sistema de arquivos |`mkdir <nome>`|[Mkdir](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/mkdir?utm_source=chatgpt.com)
-|`Cd`|… usado para navegar entre pastas no terminal|`cd ..: <Move para o diretÛrio pai>` */* `cd ~ <Move para o diretÛrio do usu·rio (home)>` */* `cd / <Move para o diretÛrio raiz do sistema>`|[Cd](https://graphite.dev/guides/change-directories-git-bash-windows)
-|`Ls`|… um comando do sistema operacional usado para listar arquivos e pastas|`ls cd ~`|[Ls](https://git-scm.com/docs/git-ls-files)
-|`Rm`|Remove arquivos do repositÛrio, seja excluindo-os completamente ou apenas parando de rastre·-los|`git rm`|[Rm](https://git-scm.com/docs/git-rm)
-|`Cat`| Exibe o conte˙do de arquivos no terminal e pode ser usado para inspecionar arquivos no contexto do Git|`cat <nome do arquivo>`|[Cat](https://git-scm.com/docs/git-cat-file/pt_BR)
-|`Init`|… usado para inicializar um novo repositÛrio Git oculto em um diretÛrio|`git config init`|[Initi](https://git-scm.com/docs/git-init/pt_BR)
-|`Branch`|Branches permitem trabalhar em paralelo em diferentes partes do projeto. A branch padr„o È geralmente main ou master|`git branch <nova-funcionalidade>`|[Branch](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras)
-|`Clone`|… usado para copiar um repositÛrio existente para o seu sistema local.|`git clone <URL-do-repositÛrio>`|[Clone](https://git-scm.com/docs/git-clone)
-|`Remote`|Gerencia conexıes entre o repositÛrio local e remotos, permitindo adicionar, remover, renomear e listar repositÛrios|`git remote add <nome> <url>` */* `git remote ls` */* `git remote rm <nome>`|[Remote](https://git-scm.com/docs/git-remote)
-|`Add`|Move alteraÁıes para a ·rea de staging, preparando-as para commit|`git add <nome do arquivo>`|[Add](https://git-scm.com/docs/git-add/pt_BR)
-|`Commit`|Registra alteraÁıes da ·rea de staging no histÛrico do repositÛrio|`git commit -m "Mensagem do commit"`|[Commit](https://git-scm.com/docs/git-commit)
-|`Push`|Utilizado para enviar commits do repositÛrio local para um repositÛrio remoto|`git push <Nome do repositÛrio remoto> <Nome da branch que vocÍ deseja enviar>` |[Push](https://git-scm.com/docs/git-push)
-|`pull`|Atualiza a branch local com alteraÁıes de um repositÛrio remoto|`git pull <Nome do repositÛrio remoto> <Nome da branch que vocÍ deseja atualizar>`|[Pull](https://git-scm.com/docs/git-pull)
+|*C√≥digo*|*Explica√ß√£o*|*Exemplos*|*Links*|
+|---------|-------------|--------|-------|
+|`Config`| Sistema de configura√ß√£o usado para gerenciar as op√ß√µes e prefer√™ncias do Git| `git config --global user.name <Seu Nome>` */* `git config --global user.email <Seu Email>` */* `git help`|[![Config](https://img.shields.io/badge/Config-black?style=flat)](https://git-scm.com/docs/git-config)|
+|`Mkdir`| Usado para criar uma nova pasta no sistema de arquivos |`mkdir <nome>`| [![Mkdir](https://img.shields.io/badge/Mkdir-black?style=flat)](https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/mkdir)|
+|`Cd`| Navegar entre pastas no terminal|`cd ..` */* `cd ~` */* `cd /`|[![Cd](https://img.shields.io/badge/Cd-black?style=flat)](https://graphite.dev/guides/change-directories-git-bash-windows) |
+|`Ls`| Listar arquivos e pastas| `ls`|[![Ls](https://img.shields.io/badge/Ls-black?style=flat)](https://git-scm.com/docs/git-ls-files)|
+|`Rm`| Remove arquivos do reposit√≥rio| `git rm`|[![Rm](https://img.shields.io/badge/Rm-black?style=flat)](https://git-scm.com/docs/git-rm)|
+|`Cat`| Exibe o conte√∫do de arquivos no terminal| `cat <nome do arquivo>`|[![Cat](https://img.shields.io/badge/Cat-black?style=flat)](https://git-scm.com/docs/git-cat-file/pt_BR)|
+|`Init`| Inicializar um novo reposit√≥rio Git| `git init`|[![Init](https://img.shields.io/badge/Init-black?style=flat)](https://git-scm.com/docs/git-init/pt_BR)|
+|`Branch`| Trabalhar em branches| `git branch <nova-funcionalidade>`| [![Branch](https://img.shields.io/badge/Branch-black?style=flat)](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras)|
+|`Clone`| Copiar um reposit√≥rio existente| `git clone <URL-do-reposit√≥rio>`|[![Clone](https://img.shields.io/badge/Clone-black?style=flat)](https://git-scm.com/docs/git-clone)|
+|`Remote`| Gerenciar conex√µes entre o reposit√≥rio local e remotos| `git remote add <nome> <url>` */* `git remote ls` */* `git remote rm <nome>`|[![Remote](https://img.shields.io/badge/Remote-black?style=flat)](https://git-scm.com/docs/git-remote)|
+|`Add`| Preparar altera√ß√µes para commit| `git add <arquivo>` */* `git add .`|[![Add](https://img.shields.io/badge/Add-black?style=flat)](https://git-scm.com/docs/git-add/pt_BR)|
+|`Commit`| Registrar altera√ß√µes no hist√≥rico do reposit√≥rio| `git commit -m "Mensagem do commit"`|[![Commit](https://img.shields.io/badge/Commit-black?style=flat)](https://git-scm.com/docs/git-commit)|
+|`Push`| Enviar commits para um reposit√≥rio remoto| `git push <nome remoto> <branch>`|[![Push](https://img.shields.io/badge/Push-black?style=flat)](https://git-scm.com/docs/git-push)|
+|`Pull`| Atualizar branch local com altera√ß√µes do reposit√≥rio remoto| `git pull <nome remoto> <branch>`|[![Pull](https://img.shields.io/badge/Pull-black?style=flat)](https://git-scm.com/docs/git-pull)|
+|`Status`| Mostrar o estado do reposit√≥rio| `git status`|[![Status](https://img.shields.io/badge/Status-black?style=flat)](https://git-scm.com/docs/git-status)|
+|`Log`| Exibir hist√≥rico de commits| `git log`|[![Log](https://img.shields.io/badge/Log-black?style=flat)](https://git-scm.com/docs/git-log)|
+|`Reset`| Desfazer altera√ß√µes em commits| `git reset [<--soft/--mixed/--hard>] <commit>`|[![Reset](https://img.shields.io/badge/Reset-black?style=flat)](https://git-scm.com/docs/git-reset)|
+|`Restore`| Desfazer altera√ß√µes em um reposit√≥rio local| `git restore <arquivo>` */* `git restore .`|[![Restore](https://img.shields.io/badge/Restore-black?style=flat)](https://git-scm.com/docs/git-restore)|
+|`Clean`| Excluir arquivos n√£o rastreados| `git clean -f`|[![Clean](https://img.shields.io/badge/Clean-black?style=flat)](https://git-scm.com/docs/git-clean)|
+|`Revert`| Criar um commit que desfaz altera√ß√µes de outro commit| `git revert <commit>`|[![Revert](https://img.shields.io/badge/Revert-black?style=flat)](https://git-scm.com/docs/git-revert)|
+|`Checkout/Switch`| Alternar entre branches| `git checkout <branch>` */* `git switch <branch>`|[![Checkout/Switch](https://img.shields.io/badge/Checkout%2FSwitch-black?style=flat)](https://git-scm.com/docs/git-checkout)|
+|`Fetch`| Baixa as altera√ß√µes do reposit√≥rio remoto, mas n√£o as integra √† sua branch local.|`git fetch origin`|[![Fetch](https://img.shields.io/badge/Frtch-black?style=flat)](https://git-scm.com/docs/git-fetch)|

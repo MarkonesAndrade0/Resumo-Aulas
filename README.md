@@ -102,6 +102,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 **`1° Gerar uma chave SSH`**
 - *`Abra o terminal ou Git Bash.`*
 - *`Execute o comando para gerar a chave:`*
+    
     ```
     ssh-keygen -t ed25519 -C "seuemail@example.com"
     ```
@@ -116,12 +117,14 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
     eval "$(ssh-agent -s)"
     ```
 - *`Adicione sua chave ao agente:`*
+    
     ```
     ssh-add ~/.ssh/id_ed25519
     ```
 **`3° Adicionar a chave SSH ao GitHub`**
 
 - *`Copie a chave pública para a área de transferência`*
+    
     ```
     cat ~/.ssh/id_ed25519.pub
     ```
@@ -179,16 +182,19 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
         cd meu-projeto
         ```
     - *`Inicialize o repositório:`*
+        
         ```
         git init
         ```
     - *`Crie arquivos e faça o primeiro commit:`*
+       
         ```
         echo "# Meu Projeto" > README.md
         git add .
         git commit -m "Primeiro commit"
         ```
     - *`Conecte ao GitHub:`*
+        
         ```
         git remote add origin <URL_DO_REPOSITÓRIO>
         git branch -M main
@@ -205,6 +211,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
     - *`No GitHub, vá ao repositório desejado.`*
     - *`Clique em "Code" e copie a URL (HTTPS, SSH).`*
     - *`No terminal, execute:`*
+    
     ```
     git clone <URL_DO_REPOSITÓRIO>
     ```
@@ -236,6 +243,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 
 - *`Verificar o Estado do Repositório`*
     - *`Execute o comando:`*
+    
     ```
     git status
     ```
@@ -244,10 +252,12 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 
 - *`Adicionar Arquivos ao Stage`*
     - *`Adicionar um arquivo específico:`*
+    
     ```
     git add <nome_do_arquivo>
     ```
     - *`Adicionar todos os arquivos modificados:`*
+    
     ```
     git add .
     ```
@@ -255,6 +265,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 
 - *`Criar um Commit`*
     - *`Registre as alterações de forma permanente no repositório local:`*
+    
     ```
     git commit -m "Descrição clara e objetiva das alterações realizadas"
     ```
@@ -266,26 +277,31 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 
 - *`Garantir Conexão com o Repositório Remoto`*
     - *`Verifique se o repositório local está conectado ao remoto:`*
+    
     ```
     git remote -v
     ```
     - *`Se não estiver, conecte-o:`*
+    
     ```
     git remote add origin <URL_DO_REPOSITÓRIO>
     ```
 
 - *`Enviar os Commits`*
     - *`Suba as alterações para o GitHub usando:`*
+    
     ```
     git push origin <branch>
     ```
     - *`Exemplo: Enviar para a branch principal`* (**`main`**)
+    
     ```
     git push origin main
     ```
 
 - *`Sincronizar Antes de Novas Alterações`*
     - *`Sempre sincronize sua branch local com o repositório remoto para evitar conflitos:`*
+    
     ```
     git pull origin main
     ```
@@ -311,7 +327,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
         ```
 
 - *`Desfazer alterações antes do commit:`*
-    - *`Se você usou o`* **`git add`**, *`mas ainda não realizou o commit, pode desfazer o staging:`*}
+    - *`Se você usou o`* **`git add`**, *`mas ainda não realizou o commit, pode desfazer o staging:`*
        
         ```
         git restore --staged <arquivo>
@@ -333,7 +349,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
         ```
 
 - *`Reverter commits mais antigos`*
-    - *`Para cirar um commit dque desfaz alterações de um commit específico:`*
+    - *`Para cirar um commit que desfaz alterações de um commit específico:`*
         
         ```
         git revert <hash-do-commit>
@@ -344,9 +360,9 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
     - *`Forçar um reset para alinhar com o repositório remoto:`*
         ```
         git fetch origin
-        git reser --hard origin/<branch>
+        git reset --hard origin/<branch>
         ```
-    - *`Isso sincroniza sua branch local com o estado mais recent do repositório remoto.`*
+    - *`Isso sincroniza sua branch local com o estado mais recente do repositório remoto.`*
 
     - *`Desfazer alterações já enviadas para o **GitHub**: Se você já fez um push e precisa corrigir, use:`*
         ```
@@ -489,6 +505,7 @@ Repositorio para armazenar resumos Git e Github do curso Versionamento de Códig
 
         ```
         git switch  <nome-da-branch>
+        ```
 
 - *`3° Mesclando Branches`*
     

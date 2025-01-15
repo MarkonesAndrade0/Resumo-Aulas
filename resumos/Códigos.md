@@ -21,3 +21,4 @@
 |`Clean`| Excluir arquivos não rastreados| `git clean -f`|[![Clean](https://img.shields.io/badge/Clean-black?style=flat)](https://git-scm.com/docs/git-clean)|
 |`Revert`| Criar um commit que desfaz alterações de outro commit| `git revert <commit>`|[![Revert](https://img.shields.io/badge/Revert-black?style=flat)](https://git-scm.com/docs/git-revert)|
 |`Checkout/Switch`| Alternar entre branches| `git checkout <branch>` */* `git switch <branch>`|[![Checkout/Switch](https://img.shields.io/badge/Checkout%2FSwitch-black?style=flat)](https://git-scm.com/docs/git-checkout)|
+|`Fetch`| Baixa as alterações do repositório remoto, mas não as integra à sua branch local.|`git fetch origin`|[![Fetch](https://img.shields.io/badge/Frtch-black?style=flat)](https://git-scm.com/docs/git-fetch)|
